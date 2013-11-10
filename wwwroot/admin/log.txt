@@ -1,0 +1,113 @@
+2006-02-07 20:54:39 Error: Directory for new car id (4) already exists.
+2006-02-07 21:00:01 Error: Directory for new car id (4) already exists.
+2006-02-07 21:00:01 Error: is_file() failed.
+2006-02-07 21:03:56 Error: move_uploaded_file() failed, on  to 
+2006-02-07 21:03:56 Error: is_file() failed.
+2006-02-07 21:03:56 Removed directory 4
+2006-02-07 21:04:27 Error: move_uploaded_file() succeeded, but COMP1_3_SHOWROOM.JPG does not exist.
+2006-02-07 21:04:27 Error: is_file(COMP1_3_SHOWROOM.JPG) failed.
+2006-02-07 21:04:27 Removed directory 4
+2006-02-07 21:04:38 Debug: File moved from C:\WINDOWS\TEMP\php7E.tmp to COMP1_3_SHOWROOM.JPG
+2006-02-07 21:04:38 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 10, 10, 'COMP1_3_SHOWROOM.JPG', 4, 'Manual', 1, NULL, '', 1, 2)' at line 3<br />
+From query: INSERT INTO CarMain
+	(CarID,Make,Model,CarTypeID,Year,Colour,Price,ShowroomSeq,HomepageSeq,ShowroomImgName,NumDoors,Gearbox,NumOwners,Mileage,EngineCapacity,SpecLayoutID,DescLayoutID) 
+	VALUES (4, 'TestMake', '', 1, NULL, '', , 10, 10, 'COMP1_3_SHOWROOM.JPG', 4, 'Manual', 1, NULL, '', 1, 2)
+2006-02-07 21:04:38 
+2006-02-07 21:04:38 Removed COMP1_3_SHOWROOM.JPG
+2006-02-07 21:04:38 Removed directory 4
+2006-02-07 21:07:00 Debug: File moved from C:\WINDOWS\TEMP\php7F.tmp to COMP1_3_SHOWROOM.JPG
+2006-02-07 21:07:58 Error: move_uploaded_file() succeeded, but maid.jpg does not exist.
+2006-02-07 21:10:27 Debug: File moved from C:\WINDOWS\TEMP\php82.tmp to maid.jpg
+2006-02-07 21:16:55 Error: move_uploaded_file() succeeded, but jacd11.jpg does not exist.
+2006-02-07 21:17:08 Debug: File moved from C:\WINDOWS\TEMP\php84.tmp to jacd11.jpg
+2006-02-07 21:20:08 Debug: File moved from C:\WINDOWS\TEMP\php85.tmp to COMP1_3_SHOWROOM.JPG
+2006-02-07 21:22:51 Debug: File moved from C:\WINDOWS\TEMP\php86.tmp to COMP1_3_SHOWROOM.JPG
+2006-02-07 21:24:11 Debug: File moved from C:\WINDOWS\TEMP\php87.tmp to COMP1_3_SHOWROOM.JPG
+2006-02-07 21:24:11 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ' 'Just arrived!', 10, 10, 'COMP1_3_SHOWROOM.JPG', 4, 'Manual', 1, NULL, '', 1, 2' at line 3<br />
+From query: INSERT INTO CarMain
+	(CarID,Make,Model,CarTypeID,Year,Colour,Price,Status,ShowroomSeq,HomepageSeq,ShowroomImgName,NumDoors,Gearbox,NumOwners,Mileage,EngineCapacity,SpecLayoutID,DescLayoutID) 
+	VALUES (4, 'TestMake', '', 1, NULL, '', , 'Just arrived!', 10, 10, 'COMP1_3_SHOWROOM.JPG', 4, 'Manual', 1, NULL, '', 1, 2)
+2006-02-07 21:24:11 
+2006-02-07 21:24:11 Removed COMP1_3_SHOWROOM.JPG
+2006-02-07 21:24:11 Removed directory 4
+2006-02-07 21:25:45 Debug: File moved from C:\WINDOWS\TEMP\php88.tmp to COMP1_3_SHOWROOM.JPG
+2006-02-07 21:39:36 Debug: File moved from C:\WINDOWS\TEMP\php91.tmp to COMP1_3_SHOWROOM.JPG
+2006-02-07 21:39:36 Error: Unknown column 'x' in 'field list'<br />
+From query: INSERT INTO CarMain
+	(CarID,Make,Model,CarTypeID,Year,Colour,Price,Status,ShowroomSeq,HomepageSeq,ShowroomImgName,NumDoors,Gearbox,NumOwners,Mileage,EngineCapacity,SpecLayoutID,DescLayoutID) 
+	VALUES (5, 'TestMake', 'TestModel', 1, 2000, 'TestColour', 3000, 'Just arrived!', 10, 10, 'COMP1_3_SHOWROOM.JPG', 4, 'Manual', x, NULL, '5cc', 1, 2)
+2006-02-07 21:39:36 
+2006-02-07 21:39:36 Removed COMP1_3_SHOWROOM.JPG
+2006-02-07 21:39:36 Removed directory 5
+2006-02-07 21:41:34 Debug: File moved from C:\WINDOWS\TEMP\php92.tmp to COMP1_3_SHOWROOM.JPG
+2006-02-07 21:50:57 Error: Directory for new car id (4) already exists.
+2006-02-07 21:50:57 Removed COMP1_3_SHOWROOM.JPG
+2006-02-07 21:50:57 Removed directory 4
+2006-02-07 21:51:02 Debug: File moved from C:\WINDOWS\TEMP\php96.tmp to COMP1_3_SHOWROOM.JPG
+2006-02-07 21:51:33 Debug: File moved from C:\WINDOWS\TEMP\php97.tmp to COMP1_3_SHOWROOM.JPG
+2006-02-08 19:34:14 Error: move_uploaded_file() succeeded, but Engine_23.JPG does not exist.
+2006-02-08 19:34:28 Debug: File moved from C:\WINDOWS\TEMP\phpA4.tmp to Engine_23.JPG
+2006-02-08 23:45:02 Error: move_uploaded_file() succeeded, but focus cockpit.jpg does not exist.
+2006-02-08 23:45:09 Error: move_uploaded_file() succeeded, but focus badge.jpg does not exist.
+2006-02-08 23:45:15 Debug: File moved from C:\WINDOWS\TEMP\phpA9.tmp to focus badge.jpg
+2006-02-08 23:45:30 Error: move_uploaded_file() succeeded, but st 170 badge.jpg does not exist.
+2006-02-08 23:45:34 Debug: File moved from C:\WINDOWS\TEMP\phpAB.tmp to st 170 badge.jpg
+2006-02-10 23:18:08 Error: uploading file from  to 
+2006-02-10 23:18:45 Error: uploading file from  to 
+2006-02-10 23:19:08 Error: uploading file from  to 
+2006-02-10 23:19:58 Error: uploading file from  to 
+2006-02-10 23:21:08 Error: uploading file from  to 
+2006-02-10 23:22:10 Error: uploading file from  to 
+2006-02-10 23:23:31 Error: uploading file from  to 
+2006-02-10 23:25:05 Error: uploading file from  to 
+2006-02-10 23:25:46 Error: uploading file from  to 
+2006-02-10 23:27:04 Error: uploading file from  to 
+2006-02-10 23:31:59 Error: move_uploaded_file() succeeded, but FOCUS SML_SHOWROOM_1.JPG does not exist.
+2006-02-10 23:32:10 Debug: File moved from C:\WINDOWS\TEMP\phpC6.tmp to FOCUS SML_SHOWROOM_1.JPG
+2006-02-10 23:32:10 Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SML_SHOWROOM_1.JPG,
+		NumDoors = 4,
+		Gearbox = 'Manual',
+		NumOwners = 1,
+		Mil' at line 11<br />
+From query: UPDATE CarMain
+	SET	Make = 'Ford',
+		Model = 'Focus',
+		CarTypeID = 8,
+		Year = '1999',
+		Colour = 'Black',
+		Price = 56.70,
+		Status = 'Sold!',
+		ShowroomSeq = 3,
+		HomepageSeq = 5,
+		ShowroomImgName = FOCUS SML_SHOWROOM_1.JPG,
+		NumDoors = 4,
+		Gearbox = 'Manual',
+		NumOwners = 1,
+		Mileage = 22,
+		EngineCapacity = '500'
+	WHERE CarID = 3
+2006-02-10 23:32:10 Rollback: Removed FOCUS SML_SHOWROOM_1.JPG
+2006-02-10 23:42:59 Debug: File moved from C:\WINDOWS\TEMP\phpC7.tmp to FOCUS SML_SHOWROOM_1.JPG
+2006-02-10 23:46:31 Error: move_uploaded_file() succeeded, but COMP11_SHOWROOM_1.JPG does not exist.
+2006-02-10 23:46:36 Debug: File moved from C:\WINDOWS\TEMP\phpC9.tmp to COMP11_SHOWROOM_1.JPG
+2006-02-10 23:47:54 Error: move_uploaded_file() succeeded, but COMP11_SHOWROOM.JPG does not exist.
+2006-02-10 23:49:21 Error: move_uploaded_file() succeeded, but COMP1_3_SHOWROOM_1.JPG does not exist.
+2006-02-10 23:49:35 Debug: File moved from C:\WINDOWS\TEMP\phpCC.tmp to COMP1_3_SHOWROOM_1.JPG
+2006-02-11 02:04:57 test
+2006-02-11 02:07:16 Array
+2006-02-11 02:49:02 Error: move_uploaded_file() succeeded, but Comp1[1].jpg does not exist.
+2006-02-11 02:49:06 Debug: File moved from C:\WINDOWS\TEMP\phpCF.tmp to Comp1[1].jpg
+2006-02-11 16:51:43 Error: uploading file from  to focus cockpit.jpg
+2006-02-11 16:55:14 Debug: File moved from C:\WINDOWS\TEMP\phpD2.tmp to focus cockpit.jpg
+2006-02-11 16:55:33 Error: move_uploaded_file() succeeded, but FOCUS SML_SHOWROOM.JPG does not exist.
+2006-02-11 16:55:39 Debug: File moved from C:\WINDOWS\TEMP\phpD4.tmp to FOCUS SML_SHOWROOM.JPG
+2006-02-11 17:05:46 Debug: File moved from C:\WINDOWS\TEMP\phpD5.tmp to FOCUS SML_SHOWROOM.JPG
+2006-02-11 17:06:21 Debug: File moved from C:\WINDOWS\TEMP\phpD7.tmp to focus main.jpg
+2006-02-11 17:07:17 Error: move_uploaded_file() succeeded, but focus main_1.jpg does not exist.
+2006-02-11 17:07:21 Debug: File moved from C:\WINDOWS\TEMP\phpD9.tmp to focus main_1.jpg
+2006-02-11 17:32:23 Error: move_uploaded_file() succeeded, but focus front.jpg does not exist.
+2006-02-11 17:32:32 Debug: File moved from C:\WINDOWS\TEMP\phpDB.tmp to focus front.jpg
+2006-02-11 19:20:45 Debug: File moved from C:\WINDOWS\TEMP\phpDF.tmp to focus front.jpg
+2006-02-11 19:57:25 Error: move_uploaded_file() succeeded, but Comp1[1]_1.jpg does not exist.
+2006-02-11 19:57:30 Debug: File moved from C:\WINDOWS\TEMP\phpE3.tmp to Comp1[1]_1.jpg
+2006-02-11 19:58:01 Debug: File moved from C:\WINDOWS\TEMP\phpE4.tmp to Comp1[1].jpg

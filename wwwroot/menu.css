@@ -1,0 +1,252 @@
+img
+{
+	border:0;
+}
+
+
+/********** menu bar **********/
+
+#wrapper
+{
+	position:relative;
+}
+
+#headerwrapper
+{
+	border-top:3px solid #83B1EB;
+	background:#365E98;
+}
+
+#header
+{
+	height:42px;
+	margin:0% 5%;
+}
+
+#logo
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 0;
+	width: 750px;
+}
+
+#topcolor
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 750px;
+	background-repeat: repeat-x;
+	background-image:url("/topcolor.gif");
+}
+
+#banner_spacer
+{
+	height: 150px;
+}
+
+#login
+{
+ 	position: absolute;
+	top: 90px;
+	left: 0px;
+	width: 750px;
+	text-align:right;
+	color: #4d7bb2;
+	font-size: 8pt;
+}
+#login a
+{
+	text-decoration: none;
+}
+
+/********** menu **********/
+
+#navigation
+{
+	font-size:11px;
+	position:absolute;
+	top:110px;
+	/* left:5%; */ /* put the bar x from the left */
+	background: #4d7bb2;
+	z-index: 99; /* new */
+	border-top: 3px solid #d7d5e0;	/* new */
+}
+
+/* styles for all UL's in the list */
+#nav, #nav ul
+{
+	width: 80px; 
+	margin: 0;
+	padding: 0;
+}
+
+/* float the menu left with overall width X.  Note: this style declaration must go here (after the above #nav, #nav ul) */	
+#nav
+{
+	width: 720px;
+	margin-left: 30px;	/* new */
+	display: inline;	/* fix IE bug */
+	border-left: 1px solid #83B1EB;	/* applies to 1st menu header only */
+	float: left;
+}
+
+#nav ul
+{
+	border-bottom: 1px solid #ccc;
+}
+
+/* styles for all LI's in the list */
+#nav li
+{
+	background:#4d7bb2;
+	background-image:url("/images/menubg.gif");
+	background-repeat:no-repeat;
+	position: relative;
+	list-style: none;
+	float: left;
+	width: 80px; /* Width of Menu Items */
+}
+
+/* styles for all UL's/LI's in the list below the top level - can overwride here if you want second level to be wider*/
+#nav li ul, #nav li li
+{
+	width:150px; 
+	background: #FFF;
+}
+
+#nav li a
+{
+	display: block;
+	text-decoration: none;
+	color: #FFF;
+	padding: 5px;
+	border-right: 1px solid #83B1EB;
+	border-top: 0;
+	border-bottom: 0;
+	border-left:0;
+	text-align: center; /* new */
+}
+
+#nav li li a
+{
+	display: block;
+	text-decoration: none;
+	color: #333;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-bottom: 0;
+	text-align: left; /* new */
+}
+
+/* Fix IE. Hide from IE Mac \*/
+* html #nav li { float: left; height: 1%; }
+* html #nav li a { height: 1%; }
+/* End */
+
+#nav ul
+{
+	position: absolute;
+	margin-left:-1px; /* Lines the secondondary nav up */
+	display: none;
+}
+	
+#nav ul ul
+{
+	left: 150px; /* should be the same width as '#nav li li' width */
+	top: 0;
+}
+
+#nav li a
+{
+	padding: 3px 5px 3px 8px;			/* height of menu header */
+/*	border-bottom:2px solid #d7d5e0; #016BC2;*/
+}
+
+#nav li ul li a
+{
+	padding: 3px 8px;
+	border-bottom: 0;
+}
+
+#nav #current
+{
+	background-image:url("/images/menubgon.gif");
+}
+
+#nav #current .currentitem
+{
+	background:#E4E4E4;
+}
+
+#nav li:hover ul ul, 
+#nav li.sfhover ul ul, 
+#nav li:hover ul ul ul, 
+#nav li.sfhover ul ul ul, 
+#nav li.over ul ul, 
+#nav li.over ul ul ul
+{ 
+	display: none;
+}
+
+#nav li:focus ul, 
+#nav li li:focus ul, 
+#nav li:hover ul, 
+#nav li.sfhover ul, 
+#nav li li:hover ul, 
+#nav li li.sfhover ul, 
+#nav li li li:hover ul, 
+#nav li li li.sfhover ul, 
+#nav li.over ul, 
+#nav li li.over ul, 
+#nav li li li.over ul
+{
+	display: block;
+}
+
+#nav li.menuparent
+{
+	/* Can add drop down arrow/image here by uncommenting line below */
+	/* background: transparent url("/images/arrow-down.gif") right center no-repeat; */
+}
+#nav li li.menuparent
+{ 
+	background: transparent url("/images/arrow.gif") right center no-repeat; 
+}
+
+#nav li.menuparent:hover, 
+#nav li.menuparent.sfhover, 
+#nav li.over
+{
+	background: #83B1EB !important;
+	background-image:url("/images/menubgon.gif");
+}
+
+#nav li li.menuparent:hover, 
+#nav li li.menuparent.sfhover, 
+#nav li li.over
+{
+	background: #E4E4E4 !important;
+	background-image:none;
+}
+
+#nav li a:hover,
+#nav li a.sfhover
+{
+	/* text to white, bg to lightblue */	
+	color: #FFF;
+	background:#83B1EB;
+/*	border-bottom:2px solid #cccc00; */
+}
+
+#nav li ul li a:hover, 
+#nav li ul li a.sfhover, 
+#nav #current .currentitem:hover,
+#nav #current .currentitem.sfhover
+{
+	color: #FFF;
+	background:#83B1EB;
+	border-bottom: 0;
+}

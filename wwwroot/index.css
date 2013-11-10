@@ -1,0 +1,48 @@
+#top-section {
+	position:relative;
+	left:0;
+	top:0;
+}
+#mid-section {
+	position:relative;
+	left:0;
+	top:0;
+}
+#bottom-section {
+	position:relative;
+	left:0;
+	top:0;
+}
+#top-col-1 {
+	position:relative;
+	padding-left:20%;
+	padding-right:10px;
+	border: 1px solid #000;
+}
+#mid-col-1 {
+	position:absolute;
+	top:0;
+	left:0;
+	width:20%;
+	border: 1px solid #000;
+}
+#mid-col-2 {
+	position:relative;
+	top:0;
+	left:20%;
+	width:60%;
+	border: 1px solid #000;
+}
+#mid-col-3 {
+	position:absolute;
+	top:0;
+	left:80%;
+	width:20%;
+	border: 1px solid #000;
+}
+#bottom-col-1 {
+	position:relative;
+	padding-left:20%;
+	padding-right:10px;
+	border: 1px solid #000;
+}
